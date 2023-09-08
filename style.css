@@ -1,0 +1,221 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body {
+    background-color: rgb(204, 228, 255);
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8%;
+    padding-left: 8%;
+    background-color: rgb(124, 185, 255);
+    border-bottom: 1px solid rgb(88, 94, 102);
+}
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span {
+    color: rgb(6, 74, 148);
+}
+.lio {
+    color: rgb(44, 105, 174);
+}
+.name {
+    color: rgb(44, 81, 122); /* ganti warna nama belakang */
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a {
+    color: rgb(238, 243, 243);
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+nav ul li a:hover {
+    color: rgb(44, 105, 174);
+    transition: 0.5s;
+}
+.btn {
+    background-color: rgb(15, 15, 15);
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 30px;
+    transition: transform.5s ;
+}
+.btn:hover {
+    transform: scale(1.2);
+    border: 2px solid rgb(148, 147, 151);
+    background-color:transparent ;
+}
+/* .image {
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 30px;
+    transform: rotateY(180deg);
+} */
+/* .image img {
+    width: 500px;
+    position: absolute;
+    bottom: 0;
+    right: 23%;
+    transform: translate(10px);
+} */
+/* .content {
+    position: absolute;
+    top: 60%;
+    left: 8%;
+    transform: translateY(-50%);
+} */
+
+.content-container {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px 0;
+}
+img {
+    width: 100%;
+}
+h4 {
+    color: rgb(7, 22, 39);
+    letter-spacing: 2px;
+    font-size: 35px;
+}
+h2 {
+    color: rgb(42, 83, 129);
+    font-size: 50px;
+    margin: 20px 0 20px;
+
+}
+h3 {
+    color: rgb(2, 13, 29);
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.content a {
+    font-size: 20px;
+    background: rgb(121, 34, 34);
+    color: white;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 2px solid white ;
+    transition: .5s;
+}
+.content a:hover {
+    background: transparent;
+    border: 2px solid rgb(214, 200, 200);
+}
+#about {
+    width: 100%;
+    padding: 100px 0;
+    background-color: whitesmoke;
+}
+.about-me {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+img {
+    height: auto;
+    width: 430px;
+    border-radius: 10px;
+}
+a {
+    text-decoration: none;
+    color: rgb(34, 62, 90);
+    font-weight: bold;
+}
+.about-text {
+    width: 550px;
+}
+.about-me h2 {
+    color: rgb(122, 178, 241);
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(124, 185, 255);
+}
+.about-text p {
+    color: rgb(34, 72, 116);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    text-align: justify;
+}
+.button {
+    background-color: rgb(197, 101, 101);
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .5s;
+}
+.button:hover {
+    background-color: transparent;
+    border: 2px solid rgb(201, 147, 147);
+    cursor: pointer;
+}
+.contact-me {
+    width: 100%;
+    padding: 100px 0;
+    background-color: #837575;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact-text h2 {
+    color: rgb(72, 154, 248);
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.contact-box {
+    color: rgb(173, 118, 118);   
+}
+.contact-box:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.contact {
+    width: 25%;
+    padding: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+}
+.contact h4 {
+    color: rgb(62, 64, 66);
+    padding-bottom: 10px;
+}
+.contact p {
+    font-size: 18px;
+    
+}
